@@ -3,63 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style/base.css" rel="stylesheet" media="screen">
-    <link href="./style/print.css" rel="stylesheet" media="print">
+    <link href="main.css" rel="stylesheet"/>
     <title>Jessabelle's Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1> Content</h1>
+        <h1>Jessabelle Lau - Portfolio</h1>
+        <div class="header">
+        <h1>Content</h1>
         <nav>
             <ol>
-                <li><a href="#ABOUT ME">About Me</a></li>
-                <li><a href="Current Goals">Goals</a></li>
-                <li><a href="PREVIOUS WORKS">My Works</a></li>
-                <li><a href="Etsy Works">My Etsy</a></li>
-                <li><a href="HOW TO CONTACT ME">Contact Me</a></li>
-                <li><a href="Where to Find Me">Find Me</a></li>
+                <li><a href="#aboutme">|About Me|</a></li>
+                <li><a href="#currentgoals">|Goals|</a></li>
+                <li><a href="#previousworks">|My Works|</a></li>
+                <li><a href="#etsyworks">|My Etsy|</a></li>
+                <li><a href="#contact">|Contact Me|</a></li>
+                <li><a href="#wheremoch">|Find Me|</a></li>
             </ol>
         </nav>
+    </div>
     </header>
+    <br>
 
 <main>
+    <div class="about">
     <section>
-        <a id="About Me"></a>
-        <h1>Jessabelle Lau - Portfolio</h1>
-        <h2>ABOUT ME</h2>
-        <p>Welcome to my portfolio. Here you will find things about a 23 year old interactive design student majoring in graphic design. I love sanrio, hanging with friends, and anything that is fuzzy.
-            <h4>Hobbies</h4>
+        <h2 id="aboutme">About Me</h2>
+
+        <p>Welcome to my portfolio. Here you will find things about a 23 year old interactive design student majoring in graphic design. I love sanrio, hanging with friends, and anything that is fuzzy.</p>
+            <h3>Hobbies</h3>
             <p>I enjoy going to the gym, playing pc games, drawing and animating, streaming gameplay on twitch, reading, and getting lost in the black void of tiktok videos.</p>
     </section>
 
+<section>
+<h3 id="currentgoals">Goals</h3>
+<p>I hope by the time I am done this degree, I'll be making emotes and custom commissions for the online gaming community.</p> 
+</div>
+</section>
+<br>
 
 <section>
-<h4>Current Goals</h4>
-<p>I hope by the time I am done this degree, I'll be making emotes and custom commissions for the online gaming community.</p> 
-<h1>PREVIOUS WORKS</h1>
+    <div class="work">
+<h2 id="previousworks">My Works</h2>
+<p>Recently, I have been dabbling into digital art and media for graphic designs on twitch. This can be anything from emotes to display pictures, panels, sub badges, and more!</p>
 <figure> 
-    <img src="images/4pk preview.jpg" alt="halloween characters"
+    <img src="images/4pk preview.jpg" width="600px" height="600px" alt="halloween characters"/>
     <figcaption>some themed characters I drew for Halloween</figcaption>
 </figure>
-</p>
+</div>
 </section>
 
 <section>
-<h2>Etsy Works</h2>
+<div class="work">
+<h2 ID="etsyworks">My Etsy</h2>
 <p>You can look at some of my other graphic designs revolved around streaming and emotes on my
     <a href="https://mochiebe.etsy.com">official etsy shop!</a>
 </p>
+</div>
 </section>
+<br>
 
 <!--============SECRET MESSAGE===============
 If you are reading this, I actually have absolutely no prior coding knowledge. Everything in this class is blowing my mind! ๑(◕‿◕)๑
 =========================-->
 
 <section>
-<h1>HOW TO CONTACT ME</h1>
-<h2>My Schedule</h2>
+<div class="contact">
+<h1 ID="contact">Contact Me</h1>
+<div class="contact-container">
+<h3>My Schedule</h3>
 <table>
+    <caption>A WEEK IN MY LIFE</caption>
+<tr>
     <td>Sunday</td>
     <td>Monday</td>
     <td>Tuesday</td>
@@ -67,6 +86,7 @@ If you are reading this, I actually have absolutely no prior coding knowledge. E
     <td>Thursday</td>
     <td>Friday</td>
     <td>Saturday</td>
+</tr>
 <tr>
     <td>Free day, catch up on homework!</td>
     <td>PHIL241 @18:00-20:50</td>
@@ -83,25 +103,39 @@ If you are reading this, I actually have absolutely no prior coding knowledge. E
     </td>
 </tr>
 </table>
+</div>
+</section>
+<br>
+
+<section>
+    <div class="contact">
+    <h2 ID="wheremoch">Find Me</h2>
 <h4>When I'm not studying or working...</h4>
 <p>You can find me trying to cram in some commission work for close friends.</p>
 <figure>
-    <img src="images/2.png" alt="Girl dressed up as Stitch from Lilo and Stitch"
+    <img src="images/2.png" width="600px" height="600px" alt="Girl dressed up as Stitch from Lilo and Stitch"/>
     <figcaption>My friend Shay in a Stitch outfit from Lilo and Stitch. This PNG model can be used in place of a facecam for streaming!</figcaption>
 </figure>
 </section>
+<br>
 
-<section>
-<h3>Where to Find Me</h3>
+<section id="stream">
+<h3>I could also be streaming...</h3>
 <p>You can contact me and find all of my socials on my 
     <a href="https://www.twitch.tv/mochiebe">Twitch Channel @Mochiebe</a>
 </p>
+</div>
 </section>
 </main>
 <br>
+<br>
+<br>
+<br>
 <footer>
+    <div class="footer">
 <p>© 2023 Jessabelle Lau Suba</p>
 <br>
+</div>
 </footer>
 </body>
 </html>
