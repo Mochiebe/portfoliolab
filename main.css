@@ -1,7 +1,7 @@
 body {
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    text-align: center;
+    text-align: center; /*creates a gradient background for the entire webpage*/
 }
 li {
     display:inline;
@@ -16,6 +16,8 @@ table{
 }
 td{
     border:1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 body{
     background: rgb(34,193,195);
@@ -36,8 +38,18 @@ ol{
     color: #334a94;
 }
 .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color: rgb(100, 87, 34);
-}
+    background-image: linear-gradient(to right, rgb(253, 180, 45),rgb(255, 210, 164));
+    width: 800px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0 auto;
+} /*contains the about me info in a box, centered, with a gradient background separate from the rest of the webpage*/
+
 .contact-container{
     display:flex;
     flex-direction: column;
@@ -78,7 +90,7 @@ h1{
     text-transform: uppercase;
 }
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* makes all the remaining font on the page besides the styled titles the same*/
 }
 .footer{
     position: fixed;
