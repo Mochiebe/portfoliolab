@@ -3,3 +3,58 @@ body {
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     text-align: center;
 }
+li {
+    display:inline;
+}
+
+#ABOUTME {
+    border: 3px dotted crimson;
+}
+h2{
+    display: inline;
+}
+
+#PREVIOUSWORKS {
+    border: 3px dotted crimson;
+}
+
+
+#CONTACT {
+    border: 3px dotted crimson;
+}
+h1{
+    display: inline;
+}
+
+table{
+    border-collapse:collapse;
+}
+td{
+    border:1px solid black;
+}
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    text-align: center;
+    margin: 0;
+    min-height: 300px;
+}
+
+ol{
+    margin: 0;
+    padding: 8px;
+    height: 100%;
+    background-color: rgb(255, 128, 0);
+}
+
+li{
+    display: inline;
+    padding: 8px;
+}
+li:link{
+    background-color: #334a94;
+    color:#ffffff;
+}
+.work {
+    color: #334a94;
+}
