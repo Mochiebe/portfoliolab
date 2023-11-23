@@ -7,27 +7,12 @@ li {
     display:inline;
 }
 
-#ABOUTME {
-    border: 3px dotted crimson;
-}
-h2{
-    display: inline;
-}
-
-#PREVIOUSWORKS {
-    border: 3px dotted crimson;
-}
-
-
-#CONTACT {
-    border: 3px dotted crimson;
-}
-h1{
-    display: inline;
-}
-
 table{
     border-collapse:collapse;
+    margin: 0;
+    padding: 8px;
+    height: 100%;
+    background-color: rgb(255, 210, 164);
 }
 td{
     border:1px solid black;
@@ -47,14 +32,6 @@ ol{
     background-color: rgb(255, 128, 0);
 }
 
-li{
-    display: inline;
-    padding: 8px;
-}
-li:link{
-    background-color: #334a94;
-    color:#ffffff;
-}
 .work {
     color: #334a94;
 }
@@ -65,7 +42,7 @@ li:link{
     display:flex;
     flex-direction: column;
     align-items: center; /*centers the content horizontally*/
-    margin: 20px; 
+    margin: 1px; 
     background-color: aliceblue;
 }
 .contact-container table td{
@@ -75,4 +52,44 @@ li:link{
 }
 .contact{
     color: rgb(90, 48, 145);
+}
+
+#stream{
+    color: rgb(10, 52, 80);
+}
+#aboutme{
+    font-family: 'Comfortaa', sans-serif;
+}
+#previousworks{
+    font-family: 'Comfortaa', sans-serif;
+}
+#etsyworks{
+    font-family: 'Comfortaa', sans-serif;
+}
+#wheremoch{
+    font-family: 'Comfortaa', sans-serif;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(34,193,195,1);
+}
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 128, 0);
 }
