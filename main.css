@@ -58,3 +58,21 @@ li:link{
 .work {
     color: #334a94;
 }
+.about{
+    color: rgb(100, 87, 34);
+}
+.contact-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center; /*centers the content horizontally*/
+    margin: 20px; 
+    background-color: aliceblue;
+}
+.contact-container table td{
+    border: 1px solid #334a94
+    padding: 4px;
+    text-align: center;
+}
+.contact{
+    color: rgb(90, 48, 145);
+}
