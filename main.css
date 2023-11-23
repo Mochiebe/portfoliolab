@@ -58,10 +58,11 @@ ol{
     background-color: aliceblue;
 }
 .contact-container table td{
-    border: 1px solid #334a94
-    padding: 4px;
+    border:1px solid #334a94
+    padding; 4px;
     text-align: center;
 }
+
 .contact{
     color: rgb(90, 48, 145);
 }
