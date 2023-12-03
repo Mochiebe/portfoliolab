@@ -1,39 +1,30 @@
 body {
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 0;
+    min-height: 300px;
     text-align: center; /*creates a gradient background for the entire webpage*/
 }
 li {
     display:inline;
 }
-
-table{
-    border-collapse:collapse;
+table, ol{
     margin: 0;
     padding: 8px;
     height: 100%;
+}
+table{
+    border-collapse:collapse;
     background-color: rgb(255, 210, 164);
+}
+ol{
+    background-color: rgb(255, 128, 0);
 }
 td{
     border:1px solid black;
     padding-left: 15px;
     padding-right: 15px;
 }
-body{
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    text-align: center;
-    margin: 0;
-    min-height: 300px;
-}
-
-ol{
-    margin: 0;
-    padding: 8px;
-    height: 100%;
-    background-color: rgb(255, 128, 0);
-}
-
 .work {
     color: #334a94;
 }
@@ -70,23 +61,13 @@ ol{
 #stream{
     color: rgb(10, 52, 80);
 }
-#aboutme{
-    font-family: 'Comfortaa', sans-serif;
-}
-#previousworks{
-    font-family: 'Comfortaa', sans-serif;
-}
-#etsyworks{
-    font-family: 'Comfortaa', sans-serif;
-}
-#wheremoch{
+#aboutme, #previousworks, #etsyworks, #wheremoch, h1{
     font-family: 'Comfortaa', sans-serif;
 }
 h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
-    font-family: 'Comfortaa', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
 }
