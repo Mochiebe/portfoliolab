@@ -17,7 +17,7 @@
         <div class="header">
         <h1>Content</h1>
         <nav>
-            <ol>
+            <ol id="headerlist">
                 <li><a href="#aboutme">|About Me|</a></li>
                 <li><a href="#currentgoals">|Goals|</a></li>
                 <li><a href="#previousworks">|My Works|</a></li>
@@ -29,6 +29,9 @@
     </div>
     </header>
 
+<button type="button" id="btn-alert">Click</button>
+
+<ol id="numbers"></ol>
 <main>
     <div class="about">
     <section>
@@ -130,6 +133,8 @@ If you are reading this, I actually have absolutely no prior coding knowledge. E
 </section>
 <hr>
 
+<button type="button" id="btn-counter">Number of Likes: <span id="number">1</span></button>
+</button>
 <section id="stream">
 <h3>I could also be streaming...</h3>
 <p class="bottommargin">You can contact me and find all of my socials on my 
@@ -138,7 +143,7 @@ If you are reading this, I actually have absolutely no prior coding knowledge. E
 
 <footer>
     <div class="footer">
-<p id="footer">© 2023 Jessabelle Lau Suba</p>
+<p id="footer">© <span id="date"></span> Jessabelle Lau Suba</p>
 </div>
 </footer>
 </body>
