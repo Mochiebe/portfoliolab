@@ -5,20 +5,18 @@ body {
     min-height: 300px;
     text-align: center; /*creates a gradient background for the entire webpage*/
 }
-li {
-    display:inline;
+#headerlist li {
+    display: inline;
 }
-table, ol{
+#headerlist {
+  list-style: none;
+}
+table{
     margin: 0;
     padding: 8px;
     height: 100%;
-}
-table{
     border-collapse:collapse;
     background-color: rgb(255, 210, 164);
-}
-ol{
-    background-color: rgb(255, 128, 0);
 }
 td{
     border:1px solid black;
@@ -57,10 +55,9 @@ td{
     width: 75%;
     overflow: auto;
 }
-
 .contact-container table td{
-    border:1px solid #334a94
-    padding; 3px;
+    border:1px solid #334a94;
+    padding: 3px;
     text-align: center;
 }
 
@@ -103,4 +100,10 @@ h1{
 img{
     max-width: 100%;
     height: auto;
+}
+.even{
+    color: blueviolet;
+}
+.odd{
+    color: rgb(44, 145, 109);
 }
